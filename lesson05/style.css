@@ -1,0 +1,59 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Roboto:100,300i,400,700');
+* {
+	margin: 0;
+	padding: 0;
+
+}
+
+body {
+	background: white;
+
+}
+
+h1 {
+	padding-left: 75px;
+	letter-spacing: 10px;
+}
+
+table {
+	border-collapse: collapse;
+	/*убираем пустые промежутки между ячейками*/
+	border: none;
+	/*устанавливаем для таблицы внешнюю границу серого цвета толщиной 1px*/
+	width: 420px;
+	height: 360px;
+}
+
+
+td {
+	padding: 0;
+	border: 1px solid black;
+	text-align: center;
+}
+
+
+
+
+table .first td:nth-child(odd) {
+	background: blue;
+	padding: 0 auto;
+	text-align: center;
+}
+
+table .second td:nth-child(even) {
+	background: blue;
+	padding: 0 auto;
+	text-align: center;
+}
+
+
+table .first td:nth-child(1),
+.second td:nth-child(1) {
+	background: white;
+	width: 60px;
+	padding: 0 auto;
+	text-align: center;
+	border: none;
+}
+
+/* Footer */
