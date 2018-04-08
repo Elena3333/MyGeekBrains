@@ -1,0 +1,59 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.cont {
+	margin: 100px 1%;
+}
+.galery{
+    display: block;
+   
+}
+.big_picture {
+	display: block;
+	width: 700;
+	height: 400;
+	float: left;
+    margin-left: 250px;
+}
+
+.gallery img {
+	display: inline-block;
+	width: 250px;
+	height: 150ps;
+}
+
+.pig_picture img {
+	display: block;
+	width: 700px;
+	height: 400px;
+}
+
+.container{
+    display: flex;
+    
+}
+.tovar{
+    display: inline-flex;
+    flex-direction: row;
+    
+}
+.tovar form{
+    margin: 30px;
+     
+}
+
+.cell table:nth-child(1){
+    border: 3px solid black;
+    font-size: 20px;
+    font-weight: 400;
+    width: 800px;
+}
+
+.cell{
+    display: flex;
+   flex-direction: row;
+    
+    flex-wrap: wrap;
+}
