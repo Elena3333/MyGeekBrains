@@ -1,0 +1,93 @@
+.homepage-hero-module {
+	overflow: hidden;
+	z-index: -100;
+	position: relative;
+	height: 100%;
+	width: 100%;
+	padding-top: 45%;
+}
+
+.fillWidth {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.new {
+	background: rgba(0, 0, 0, 0.6);
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	width: 670px;
+	height: 800px;
+	z-index: 4;
+}
+
+h1 {
+	text-align: center;
+	color: #fff;
+	font-size: 70px;
+	margin-top: 17%;
+}
+
+.newform {
+	top: 50px;
+	left: 50px;
+	float: left;
+	height: 800px;
+	z-index: 5;
+	color: beige;
+}
+
+fieldset {
+	margin-bottom: 15px;
+	padding: 10px;
+}
+
+legend {
+	padding: 0px 3px;
+	font-weight: bold;
+	font-variant: small-caps;
+	color: beige;
+}
+
+label {
+	width: 110px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 6px;
+	color: beige;
+}
+
+em {
+	font-weight: bold;
+	font-style: normal;
+	color: red;
+}
+
+input:focus {
+	background: #eaeaea;
+}
+
+input,
+textarea {
+	width: 249px;
+}
+
+textarea {
+	height: 100px;
+}
+
+select {
+	width: 254px;
+}
+
+input[type=checkbox] {
+	width: 10px;
+}
+
+input[type=submit] {
+	width: 170px;
+	padding: 10px;
+}
